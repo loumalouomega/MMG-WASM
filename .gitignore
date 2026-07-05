@@ -1,0 +1,19 @@
+# Build artifacts
+dist/
+build/
+
+# Toolchains
+.emsdk/
+
+# Node
+node_modules/
+
+# Docs site output
+site/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.DS_Store

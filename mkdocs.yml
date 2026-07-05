@@ -1,0 +1,75 @@
+site_name: mmg-wasm
+site_description: MMG surface and volume remeshers compiled to WebAssembly for JavaScript/TypeScript
+site_url: https://loumalouomega.github.io/MMG-WASM/
+repo_url: https://github.com/loumalouomega/MMG-WASM
+repo_name: loumalouomega/MMG-WASM
+docs_dir: docs
+copyright: Documentation licensed alongside mmg-wasm under LGPL-3.0-or-later.
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Guide:
+      - Concepts: guide/concepts.md
+      - 3D adaptation (mmg3d): guide/adaptation-3d.md
+      - 2D meshing (mmg2d): guide/meshing-2d.md
+      - Surface remeshing (mmgs): guide/surface.md
+      - Level-set & Lagrangian motion: guide/levelset.md
+      - File I/O: guide/file-io.md
+      - Browser usage: guide/browser.md
+      - TypeScript: guide/typescript.md
+  - API:
+      - Overview: api/overview.md
+      - Marshalling: api/marshalling.md
+      - Reference: api/reference.md
+  - Building from source: building.md
+  - Architecture: architecture.md
+  - Contributing: contributing.md
+  - Troubleshooting: troubleshooting.md
+  - Licensing: licensing.md
