@@ -1,0 +1,21 @@
+[
+  "_malloc",
+  "_free",
+  "_mmgjs_MMG3D_Init_mesh",
+  "_mmgjs_MMG3D_Free_all",
+  "_MMG3D_Set_meshSize",
+  "_MMG3D_Set_vertex",
+  "_MMG3D_Set_tetrahedron",
+  "_MMG3D_Set_triangle",
+  "_MMG3D_Set_solSize",
+  "_MMG3D_Set_scalarSol",
+  "_MMG3D_Set_dparameter",
+  "_MMG3D_Set_iparameter",
+  "_MMG3D_Chk_meshData",
+  "_MMG3D_mmg3dlib",
+  "_MMG3D_Get_meshSize",
+  "_MMG3D_Get_vertex",
+  "_MMG3D_Get_tetrahedron",
+  "_MMG3D_saveMesh",
+  "_MMG3D_loadMesh"
+]
